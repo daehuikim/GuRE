@@ -1,0 +1,41 @@
+# Core ML libraries
+sentence-transformers
+transformers
+torch
+accelerate>=0.26.0
+
+# Data processing
+pandas
+numpy
+datasets
+scikit-learn
+
+# Evaluation and retrieval
+pytrec_eval
+faiss-cpu
+
+# PEFT and TRL for fine-tuning
+peft
+trl
+
+# VLLM for efficient inference
+vllm
+
+# OpenAI API for Q2D
+openai
+aiohttp
+tenacity
+tiktoken
+
+# NLTK for BLEU score
+nltk
+
+# Progress bars
+tqdm
+
+# BM25 and stemming
+bm25s
+PyStemmer
+
+# Additional utilities
+pathlib
