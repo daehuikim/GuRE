@@ -1,6 +1,6 @@
 # GuRE:Generative Query REwriter for Legal Passage Retrieval
 
-This repo contains the code for the paper LePaRD paper [(kim et al., 2025)](https://arxiv.org/abs/2505.12950).
+This repo contains the code for the paper "GuRE:Generative Query REwriter for Legal Passage Retrieval" [(kim et al., 2025)](https://arxiv.org/abs/2505.12950) from [LePaRD](https://github.com/rmahari/LePaRD).
 
 ## dataset
 
