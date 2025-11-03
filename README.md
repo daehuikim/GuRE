@@ -1,6 +1,6 @@
 # GuRE:Generative Query REwriter for Legal Passage Retrieval
 
-This repo contains the code for the paper "GuRE:Generative Query REwriter for Legal Passage Retrieval" [(kim et al., 2025)](https://arxiv.org/abs/2505.12950) from [LePaRD](https://github.com/rmahari/LePaRD).
+This repo contains the code for the paper "GuRE:Generative Query REwriter for Legal Passage Retrieval" [(kim et al., 2025)](https://aclanthology.org/2025.nllp-1.31/) from [LePaRD](https://github.com/rmahari/LePaRD).
 
 ## dataset
 
@@ -11,14 +11,28 @@ You can download the dataset from [the original LePaRD repo.](https://github.com
 Please cite the following paper if you use LePaRD:
 
 ```bibtex
-@misc{kim2025gure,
-      title={GuRE:Generative Query REwriter for Legal Passage Retrieval}, 
-      author={Daehee Kim and Deokhyung Kang and Jonghwi Kim and Sangwon Ryu and Gary Geunbae Lee},
-      year={2025},
-      eprint={2505.12950},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.12950}, 
+@inproceedings{kim-etal-2025-gure,
+    title = "{G}u{RE}:Generative Query {RE}writer for Legal Passage Retrieval",
+    author = "Kim, Daehui  and
+      Kang, Deokhyung  and
+      Kim, Jonghwi  and
+      Ryu, Sangwon  and
+      Lee, Gary",
+    editor = "Aletras, Nikolaos  and
+      Chalkidis, Ilias  and
+      Barrett, Leslie  and
+      Goanț{\u{a}}, C{\u{a}}t{\u{a}}lina  and
+      Preoțiuc-Pietro, Daniel  and
+      Spanakis, Gerasimos",
+    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.nllp-1.31/",
+    pages = "424--438",
+    ISBN = "979-8-89176-338-8",
+    abstract = {Legal Passage Retrieval (LPR) systems are crucial as they help practitioners save time when drafting legal arguments. However, it remains an underexplored avenue. One primary reason is the significant vocabulary mismatch between the query and the target passage. To address this, we propose a simple yet effective method, the $\textbf{G}$enerative q$\textbf{u}$ery $\textbf{RE}$writer $\textbf{(GuRE)}$. We leverage the generative capabilities of Large Language Models (LLMs) by training the LLM for query rewriting. $\textit{"Rewritten queries"}$ help retrievers to retrieve target passages by mitigating vocabulary mismatch. Experimental results show that GuRE significantly improves performance in a retriever-agnostic manner, outperforming all baseline methods. Further analysis reveals that different training objectives lead to distinct retrieval behaviors, making GuRE more suitable than direct retriever fine-tuning for real-world applications. Codes are avaiable at github.com/daehuikim/GuRE.}
 }
 ```
 ## Acknowledgement
